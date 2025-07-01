@@ -1,66 +1,124 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# CloudManager - Solusi Office Berbasis Cloud
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Selamat datang di **CloudManager**, sebuah aplikasi office suite berbasis cloud yang lengkap dan dirancang sebagai platform *Software as a Service* (SaaS). Aplikasi ini menyediakan lingkungan kerja (workspace) yang terisolasi bagi setiap pengguna atau perusahaan, lengkap dengan dasbor admin super untuk manajemen sistem secara keseluruhan.
 
-## About Laravel
+**Demo Langsung:** [https://cm.zyrex.win](https://cm.zyrex.win)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+-----
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## ✨ Fitur Utama
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+CloudManager hadir dengan serangkaian fitur untuk meningkatkan produktivitas dan manajemen bisnis:
 
-## Learning Laravel
+  * **🏢 Manajemen Workspace:** Sistem multi-tenant di mana setiap pengguna atau perusahaan mendapatkan workspace-nya sendiri yang aman.
+  * **👑 Dasbor Super Admin:** Panel kontrol terpusat untuk mengelola pengguna, workspace, paket langganan, dan pengaturan sistem secara keseluruhan.
+  * **📄 Editor Dokumen:** Buat dan kelola dokumen teks kaya dengan editor WYSIWYG (What You See Is What You get) yang sudah terintegrasi.
+  * **🗂️ Manajemen Aset Digital:** Unggah, simpan, dan kelola semua file dan media Anda di satu tempat.
+  * **💰 Langganan & Penagihan:** Sistem langganan bawaan dengan dukungan untuk berbagai gateway pembayaran untuk mengelola paket dan transaksi.
+  * **📅 Kalender & Acara:** Atur jadwal dan acara penting dengan fitur kalender yang intuitif.
+  * \*\* Kontak & Buku Alamat:\*\* Kelola semua kontak bisnis dan personal Anda dengan mudah.
+  * **🔗 Berbagi Cepat (Quick Share):** Bagikan dokumen dan file dengan aman kepada pihak eksternal dan lacak aksesnya.
+  * **🔑 Manajemen Kunci API:** Buat dan kelola kunci API untuk integrasi dengan layanan lain.
+  * **🌐 Halaman Landing & Blog:** Halaman depan yang dapat disesuaikan untuk memasarkan layanan SaaS Anda.
+  * **🚀 Wizard Instalasi:** Proses instalasi yang mudah melalui antarmuka web.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+-----
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## 🛠️ Tumpukan Teknologi
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Proyek ini dibangun menggunakan teknologi modern dan andal:
 
-## Laravel Sponsors
+  * **Backend:** PHP 8+, Laravel 10
+  * **Frontend:** Vite, Bootstrap 5, Sass
+  * **Editor:** CKEditor 5
+  * **Database:** MySQL
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+-----
 
-### Premium Partners
+## ⚙️ Instalasi
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+Untuk menjalankan proyek ini di lingkungan lokal Anda, ikuti langkah-langkah berikut.
 
-## Contributing
+### Prasyarat
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+  * PHP \>= 8.1
+  * Composer
+  * Node.js & NPM
+  * Server Web (Nginx/Apache)
+  * Database (misalnya MySQL)
 
-## Code of Conduct
+### Langkah-langkah Instalasi
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+1.  **Clone repositori:**
 
-## Security Vulnerabilities
+    ```sh
+    git clone https://github.com/jonathanzefanya/cloudmanager.git
+    cd cloudmanager
+    ```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+2.  **Instal dependensi PHP:**
 
-## License
+    ```sh
+    composer install
+    ```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+3.  **Instal dependensi JavaScript:**
+
+    ```sh
+    npm install
+    ```
+
+4.  **Konfigurasi Lingkungan:**
+    Salin file `.env.example` menjadi `.env`.
+
+    ```sh
+    cp .env.example .env
+    ```
+
+    Buka file `.env` dan konfigurasikan detail database Anda (DB\_HOST, DB\_PORT, DB\_DATABASE, DB\_USERNAME, DB\_PASSWORD).
+
+5.  **Hasilkan Kunci Aplikasi:**
+
+    ```sh
+    php artisan key:generate
+    ```
+
+6.  **Buat Symbolic Link:**
+    Untuk memastikan file yang diunggah dapat diakses secara publik.
+
+    ```sh
+    php artisan storage:link
+    ```
+
+7.  **Konfigurasi Web Server:**
+    Arahkan *document root* server web Anda (misalnya, Nginx atau Apache) ke direktori `public/`.
+
+8.  **Jalankan Wizard Instalasi:**
+    Buka aplikasi di browser Anda. Anda akan secara otomatis diarahkan ke halaman `/install` untuk menyelesaikan proses pengaturan, termasuk membuat akun super admin pertama.
+
+-----
+
+## 🚀 Penggunaan
+
+Aplikasi ini memiliki dua peran utama:
+
+1.  **Super Admin:** Mengakses dasbor dari rute `/admin`. Super admin dapat mengelola seluruh aplikasi, termasuk:
+
+      * Melihat statistik umum.
+      * Mengelola pengguna dan workspace.
+      * Membuat dan mengatur paket langganan.
+      * Mengonfigurasi gateway pembayaran dan pengaturan sistem lainnya.
+
+2.  **Pengguna Workspace (Kantor):** Mengakses dasbor dari rute `/office`. Pengguna dapat:
+
+      * Membuat dan mengedit dokumen.
+      * Mengunggah dan mengelola file.
+      * Mengatur acara di kalender.
+      * Mengelola kontak.
+      * Berlangganan paket jika diperlukan.
+
+-----
+
+## 📄 Lisensi
+
+Proyek CloudManager adalah perangkat lunak sumber terbuka yang dilisensikan di bawah [Lisensi MIT](https://opensource.org/licenses/MIT).
